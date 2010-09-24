@@ -23,7 +23,11 @@ Gem::Specification.new do |s|
      "README.rdoc",
      "Rakefile",
      "VERSION",
+     "active_merchant_ccavenue.gemspec",
+     "init.rb",
      "lib/active_merchant_ccavenue.rb",
+     "lib/active_merchant_ccavenue/helper.rb",
+     "lib/active_merchant_ccavenue/notification.rb",
      "spec/active_merchant_ccavenue_spec.rb",
      "spec/spec.opts",
      "spec/spec_helper.rb"
