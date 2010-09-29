@@ -10,8 +10,8 @@ begin
         gem.email = 'contact@meshbrain.com'
         gem.homepage = 'http://github.com/meshbrain/active_merchant_ccavenue'
         gem.authors = ['Suman Debnath']
-        gem.add_development_dependency 'rspec', '>= 1.2.9'
-        gem.add_dependency 'activemerchant', '>= 1.7.3'
+        gem.add_development_dependency 'rspec', '~> 1.2.9'
+        gem.add_dependency 'activemerchant', '~> 1.7.1'
     end
     Jeweler::GemcutterTasks.new
 rescue LoadError
